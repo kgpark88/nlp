@@ -1,0 +1,41 @@
+1. 텍스트에디터 설치
+https://www.sublimetext.com/
+
+2. python 3.8.7 버전 설치 -> C:\python38
+
+3. 프로젝트 디렉토리 및 Python 가상환경 설치 
+cd \
+md project
+cd project
+C:\python38\python.exe -m venv venv
+
+4. Python 가상환경 실행 
+Windows : venv\Scripts\activate
+Linux, Mac : source vevn/bin/activate
+
+5. git clinet 설치
+https://git-scm.com/
+
+6. 소스 다운로드 
+git clone https://github.com/bartdegoede/python-searchengine/
+
+7. 소스 수정
+download.py, load.py, run.py에서 enwiki-latest-abstract.xml.gz를 
+enwiki-latest-abstract10.xml.gz 로 수정
+
+
+
+8. Microsoft Build Tools 설치
+https://visualstudio.microsoft.com/ko/vs/older-downloads/
+Microsoft Build Tools 2015 업데이트 3
+
+
+9. 파이썬 패키지 설치 및 실행 
+pip install wheel
+
+cd python-searchengine
+pip install -r requirements.txt
+
+
+10. 실행 
+python run.py 
