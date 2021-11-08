@@ -1,1 +1,1 @@
-# 자연어 처리강의자료
+# Natural Language Processing
