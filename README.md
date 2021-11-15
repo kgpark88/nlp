@@ -1,1 +1,1 @@
-# Natural Language Processing
+# [비정형 자연어 데이터 분석] 강의자료
